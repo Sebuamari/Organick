@@ -38,6 +38,10 @@ nav ul li {
     height: auto;
 }
 
+.nav-li img:hover {
+    cursor: pointer;
+}
+
 .nav-a {
     color: #274C5B;
     font-weight: 700;
