@@ -38,7 +38,7 @@ nav ul li {
     height: auto;
 }
 
-.nav-li img:hover {
+.nav-li:hover {
     cursor: pointer;
 }
 
