@@ -34,6 +34,8 @@ nav ul li {
 
 .nav-li img {
     margin-left: 10px;
+    width: 6px;
+    height: auto;
 }
 
 .nav-a {
