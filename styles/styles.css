@@ -147,6 +147,104 @@ nav ul li {
     height: auto;
     border-radius: 30px;
     margin-top: 97px;
+    margin-bottom: 60px;
     left: calc((100vw - 1400px)/2);
     right: calc((100vw - 1400px)/2);
+ }
+
+ footer {
+    width: 100vw;
+ }
+
+ #footer-main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 calc((100vw - 1400px)/2);
+ }
+
+ .contact-us,
+ .about-us,
+ .utility-pages {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+ }
+
+ .about-us {
+    align-items: center;
+    width: 543px;
+ }
+
+ .about-us img {
+    width: 200px;
+    height: auto;
+ }
+
+ .about-us p {
+    margin-top: 23px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
+ }
+
+ .contact-us h3,
+ .utility-pages h3 {
+    margin-bottom: 33px;
+ }
+
+ .contact-us ul li a,
+ .utility-pages ul li a,
+ .contact-us ul li p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 272.9%;
+    color: #525C60;
+ }
+
+ .contact-us ul li p {
+    line-height: 165%;
+ }
+
+ .contact-us-link {
+    display: inline-flex;
+    flex-direction: column;
+ }
+
+ .bold {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: #274C5B;
+ }
+
+ .contact-us ul li a:hover,
+ .utility-pages ul li a:hover {
+    cursor: pointer;
+ }
+
+ #footer-bottom-section {
+    border-top: 1px solid #D5D5D5;
+    margin-top: 61px;
+ }
+
+ #footer-bottom-section p {
+    width: 700px;
+    margin: 23px calc((100vw - 700px)/2);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165.4%;
+    text-align: center;
+    color: #525C60;
  }
